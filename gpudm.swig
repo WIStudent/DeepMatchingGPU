@@ -68,9 +68,13 @@ using namespace boost;
 %template(FloatVector) vector< float >; 
 
 %include "caffe/net.hpp"
-%include "caffe/common_layers.hpp"
-%include "caffe/neuron_layers.hpp"
-%include "caffe/vision_layers.hpp"
+%include "caffe/layers/neuron_layer.hpp"
+%include "caffe/layers/relu_layer.hpp"
+%include "caffe/layers/power_layer.hpp"
+%include "caffe/layers/reshape_layer.hpp"
+%include "caffe/layers/base_conv_layer.hpp"
+%include "caffe/layers/conv_layer.hpp"
+%include "caffe/layers/pooling_layer.hpp"
 %include "caffe/util/math_functions.hpp"
 %include "extra_layers.hpp"
 

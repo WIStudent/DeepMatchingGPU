@@ -18,7 +18,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>
 #define __EXTA_LAYERS_H__
 
 #include "caffe/layer.hpp"
-#include "caffe/vision_layers.hpp"
+#include "caffe/layers/neuron_layer.hpp"
+#include "caffe/layers/relu_layer.hpp"
+#include "caffe/layers/power_layer.hpp"
+#include "caffe/layers/reshape_layer.hpp"
+#include "caffe/layers/base_conv_layer.hpp"
+#include "caffe/layers/conv_layer.hpp"
+#include "caffe/layers/pooling_layer.hpp"
 #include "caffe/proto/caffe.pb.h"
 #include <stdio.h>
 

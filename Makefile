@@ -21,7 +21,8 @@ INCLUDES += -I/usr/include/hdf5/serial/
 CUDA_ARCH := \
     -gencode arch=compute_35,code=sm_35 \
     -gencode arch=compute_50,code=sm_50 \
-    -gencode arch=compute_60,code=sm_60
+    -gencode arch=compute_60,code=sm_60 \
+    -gencode arch=compute_61,code=sm_61
 
 HEADERS := $(shell find . -maxdepth 1 -name '*.hpp')
 EXTRA_LAYERS := $(shell find . -maxdepth 1 -name '*.hpp')

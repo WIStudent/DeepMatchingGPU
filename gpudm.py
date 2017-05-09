@@ -8571,6 +8571,19 @@ class InfogainLossParameter(Message):
 
     def set_allocated_source(self, source):
         return _gpudm.InfogainLossParameter_set_allocated_source(self, source)
+
+    def has_axis(self):
+        return _gpudm.InfogainLossParameter_has_axis(self)
+
+    def clear_axis(self):
+        return _gpudm.InfogainLossParameter_clear_axis(self)
+    kAxisFieldNumber = _gpudm.InfogainLossParameter_kAxisFieldNumber
+
+    def axis(self):
+        return _gpudm.InfogainLossParameter_axis(self)
+
+    def set_axis(self, value):
+        return _gpudm.InfogainLossParameter_set_axis(self, value)
 InfogainLossParameter_swigregister = _gpudm.InfogainLossParameter_swigregister
 InfogainLossParameter_swigregister(InfogainLossParameter)
 
